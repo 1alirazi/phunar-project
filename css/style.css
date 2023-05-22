@@ -1,0 +1,297 @@
+/**Universal classes and selectors**/
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: hsl(215.29deg 100% 96.67%);
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.padding {
+    padding: 0px 50px 0px 149px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**Universal classes**/
+/*SECTION NAVBAR*/
+.ul-nav {
+    display: flex;
+    color: rgb(3, 3, 3);
+
+}
+
+.image {
+    width: 7rem;
+}
+
+li {
+    padding: 25.5px 20px 25.9px 21px;
+    font-weight: bold;
+
+}
+
+a {
+    background: none;
+
+}
+
+li:hover {
+    background-image: linear-gradient(to bottom, rgb(255 255 255 / 100%), rgb(3 3 3 / 0%));
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-image {
+    background-image: url(../images/girl.jfif);
+    width: 20rem;
+    height: 30rem;
+    margin-top: 95px;
+
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    padding: 17px 31px 17px 31px;
+    border: none;
+    background-color: hsl(211.93deg 78.42% 27.25%);
+    color: white;
+    border-radius: 7px;
+    margin-right: 56px;
+
+}
+
+.btnhover:hover {
+    background: #19406b;
+    color: white;
+}
+
+.btn-hover:hover {
+    background: transparent;
+    color: #19406b;
+    border: 1px solid black;
+}
+
+.button-two {
+    padding: 17px 31px 17px 31px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+.heading {
+    padding: 0px 0px 75px 0px;
+    font-size: 53px;
+    letter-spacing: 8px;
+}
+
+.paragraph {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    padding-bottom: 45px;
+}
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+}
+
+/*******SECTION FEATURE********/
+.div-feature-head {}
+
+.div-feature-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.h1-feature {
+    padding-top: 3rem;
+    font-size: 3rem;
+    padding-bottom: 1.8rem;
+    text-align: center;
+}
+
+.div-box {
+    box-shadow: 1px 1px 12px #c0c0c09c;
+    border-radius: 12px;
+    padding: 2.2rem 3rem;
+    display: flex;
+    width: 27%;
+}
+
+.box-m-top {
+    margin-top: 2rem;
+}
+
+.div-box-img {
+    display: inline-block;
+}
+
+.img-icon {
+    width: 3rem;
+    padding-right: 33px;
+}
+
+.p-feature {
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 0.8px;
+    padding-bottom: 1rem;
+}
+
+.div-box-text {
+    display: inline-block;
+}
+
+.p-box {
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    line-height: 25px;
+}
+
+.h1-box {
+    text-transform: uppercase;
+}
+
+.div-btn {
+    padding: 3rem;
+}
+
+.i-btn {
+    padding-left: 16px;
+}
+
+.btn-boxes {
+    padding: 12px 34px;
+    font-size: 19px;
+    border: 1.39px solid #0f427c;
+    border-radius: 6px;
+    color: #0f427c;
+}
+.div-head-about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.h1-about{
+    font-size: 40px;
+}
+/**SECTION FEATURE**/
+
+/***Section About***/
+.sec-about{
+    display: flex;
+}
+.div-head-about{}
+.div-about-text{}
+.h1-about{}
+.p-about{}
+.p-designer{}
+.h1-about-text{}
+/***MEDIA QUERIES STARTS HERE****/
+@media(max-width: 760px) {
+    main {
+        text-align: center;
+    }
+
+    .padding {
+        padding: 0%;
+    }
+
+    .heading {
+        text-align: left;
+    }
+
+    .paragraph {
+        text-align: left;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        background: #19406b;
+        margin-top: 12px;
+
+    }
+
+    li {
+        background: #19406b;
+        color: white;
+
+    }
+
+    a:hover {
+        background: transparent;
+        color: #19406b;
+
+    }
+
+    li:hover {
+        border: 1.6px solid #19406b;
+        background: white;
+    }
+
+    nav {
+        flex-direction: column;
+
+    }
+
+    a {
+        background-color: transparent;
+        color: silver;
+    }
+
+    a:hover {
+        color: #19406b;
+        background: transparent;
+    }
+
+    .heading {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .section-two {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-image {
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+
+    .sec-feature {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .div-box {
+        width: 70%;
+        text-align: left;
+
+    }
+
+    .div-box-one {
+        margin-bottom: 2rem;
+
+    }
+}
+
+/***MEDIA QUERIES ENDS HERE****/
